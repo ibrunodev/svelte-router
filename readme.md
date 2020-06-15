@@ -1,8 +1,6 @@
 # @ibrunodev/svelte-router
 
-Svelte router using a store and components.
-
-A fork from @jamen/svelte-router
+Svelte router using a store and components. The router responds to browser pushState events and update views.
 
 ## Usage
 
@@ -74,3 +72,14 @@ With this you may want your own link component:
 
 <Link router={custom} {..$$props}><slot></slot></Link>
 ```
+
+To redirect route use the `redirect` function.
+
+```
+// Home.svelte
+if ( false == user.isAuthenticated() ) {
+    redirect('/login');
+}
+```
+
+*Current lib is a fork from @jamen/svelte-router*
