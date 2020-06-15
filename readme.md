@@ -75,7 +75,7 @@ With this you may want your own link component:
 
 To redirect route use the `redirect` function.
 
-```
+```html
 <script>
 // Home.svelte
 if ( false == user.isAuthenticated() ) {
