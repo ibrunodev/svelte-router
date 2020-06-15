@@ -77,6 +77,7 @@ To redirect route use the `redirect` function.
 
 ```html
 <script>
+import { redirect } from '@ibrunodev/svelte-router'
 // Home.svelte
 if ( false == user.isAuthenticated() ) {
     redirect('/login');
