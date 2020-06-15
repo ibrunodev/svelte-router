@@ -76,10 +76,12 @@ With this you may want your own link component:
 To redirect route use the `redirect` function.
 
 ```
+<script>
 // Home.svelte
 if ( false == user.isAuthenticated() ) {
     redirect('/login');
 }
+</script>
 ```
 
 *Current lib is a fork from @jamen/svelte-router*
