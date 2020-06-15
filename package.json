@@ -1,0 +1,44 @@
+{
+  "_from": "git+https://github.com/ibrunodev/svelte-router.git",
+  "_id": "@ibrunodev/svelte-router@0.4.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/@ibrunodev/svelte-router",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/ibrunodev/svelte-router",
+    "rawSpec": "git+https://github.com/ibrunodev/svelte-router",
+    "saveSpec": "git+https://github.com/ibrunodev/svelte-router.git",
+    "fetchSpec": "https://github.com/ibrunodev/svelte-router.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/ibrunodev/svelte-router.git#a9e082bf9616b8e7c29bedaf8bd1df0237a6aae3",
+  "_spec": "git+https://github.com/ibrunodev/svelte-router",
+  "_where": "/var/www/estrategia",
+  "author": {
+    "name": "Isaac Bruno"
+  },
+  "bugs": {
+    "url": "https://github.com/ibrunodev/svelte-router/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "svelte": "3.4.0"
+  },
+  "deprecated": false,
+  "description": "Routing for Svelte with components and stores. A fork from @jamen/svelte-router",
+  "homepage": "https://github.com/ibrunodev/svelte-router#readme",
+  "main": "src/svelte-router.js",
+  "module": "./src/main.js",
+  "name": "@ibrunodev/svelte-router",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibrunodev/svelte-router.git"
+  },
+  "version": "0.4.0"
+}
